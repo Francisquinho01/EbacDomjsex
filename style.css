@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+.A{
+    color: orange;
+}
+
+.B{
+    color: orange;
+}
+h3{
+    font-size: 50px;
+}
+.Calculo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.Calculo input {
+    width: 600px; 
+    height: 100px; 
+    font-size: 30px; 
+    margin: 10px 0; 
+}
+.Calculo button {
+    width: 300px; 
+    height: 50px; 
+    font-size: 15px;
+    margin: 10px; 
+    background-color: orange;
+    color: black;
+}
+body {
+    background-image: url(photo-1556379092-dca659792591.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.ms2{
+    background-color: green;
+    display: none;
+}
+.ms3{
+    background-color: brown;
+    display: none;
+}
